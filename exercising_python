@@ -1,0 +1,10 @@
+# Print the number, the previos number and the sum of the current number and previous number
+
+sum_num = 0
+nums = 0
+
+for num in range(10):
+    sum_num = nums + num
+    print(f"Current number {num} Previous NUmber {nums} Sum {sum_num}")
+    nums = num
+    
