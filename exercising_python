@@ -1,4 +1,4 @@
-# Print the number, the previos number and the sum of the current number and previous number
+# 01. Print the number, the previos number and the sum of the current number and previous number
 
 sum_num = 0
 nums = 0
@@ -8,3 +8,10 @@ for num in range(10):
     print(f"Current number {num} Previous NUmber {nums} Sum {sum_num}")
     nums = num
     
+# 02. Print characters present at an even index number
+
+def odd(string):
+    print("\n".join(string[::2]))
+    
+odd("PYnative")
+
