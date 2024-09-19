@@ -13,5 +13,5 @@ for num in range(10):
 def odd(string):
     print("\n".join(string[::2]))
     
-odd("PYnative")
+odd("PythonRPI")
 
