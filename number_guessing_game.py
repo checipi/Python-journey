@@ -68,13 +68,7 @@ def number_guessing():
         tries -= int(low_high(user_input, random_no,))
         print(f"Tries: {tries}")
         continue_game = end_game(user_input, random_no, tries)
-        
-        # if tries == 0:
-        #    print("You lose!")
-        #    continue_game =  False 
-        # if user_input == random_no:
-        #    print("You win!")
-        #    continue_game = False 
+
     choice = input("Wanna play again? \"yes\" or \"no\"  ")
     if choice == "yes":
         os.system('clear')
