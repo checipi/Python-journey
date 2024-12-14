@@ -28,7 +28,7 @@ while game_is_on:
     time.sleep(0.1)
     snake.advance()
     
- 
+     # Collision with food
     if snake.head.distance(food) < 20:
         food.refresh()
         snake.extend()
